@@ -4,7 +4,8 @@
   "description": "JS client implementation for the ExaLicense licensing server",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "doc": "jsdoc -d ./doc index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/exanion/exalicense-client-js/issues"
   },
-  "homepage": "https://github.com/exanion/exalicense-client-js#readme"
+  "homepage": "https://github.com/exanion/exalicense-client-js#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jsdoc": "^3.6.4",
+    "jsonwebtoken": "^8.5.1"
+  }
 }
