@@ -1,0 +1,19 @@
+{
+  "name": "exalicense-client",
+  "version": "0.0.1-dev",
+  "description": "JS client implementation for the ExaLicense licensing server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exanion/exalicense-client-js.git"
+  },
+  "author": "Exanion UG",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/exanion/exalicense-client-js/issues"
+  },
+  "homepage": "https://github.com/exanion/exalicense-client-js#readme"
+}
