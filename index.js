@@ -32,7 +32,7 @@ class ExaLicense {
             clientId = null,
             allowOfflineCheck = false,
             renewTimeout = 1800,
-        }
+        } = {}
     ) {
         this.endpoint = url.parse(licensingEndpoint.replace(/\/+$/, ""));
         this.defaultLeaseExpiry = leaseExpiry;
