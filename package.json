@@ -19,7 +19,9 @@
     "homepage": "https://github.com/exanion/exalicense-client-js#readme",
     "dependencies": {
         "axios": "^0.19.2",
-        "jsdoc": "^3.6.4",
         "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+        "jsdoc": "^3.6.4"
     }
 }
