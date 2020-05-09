@@ -1,25 +1,25 @@
 {
-  "name": "exalicense-client",
-  "version": "0.1.0",
-  "description": "JS client implementation for the ExaLicense licensing server",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "doc": "jsdoc -d ./doc index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/exanion/exalicense-client-js.git"
-  },
-  "author": "Exanion UG",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/exanion/exalicense-client-js/issues"
-  },
-  "homepage": "https://github.com/exanion/exalicense-client-js#readme",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "jsdoc": "^3.6.4",
-    "jsonwebtoken": "^8.5.1"
-  }
+    "name": "exalicense-client",
+    "version": "0.1.1",
+    "description": "JS client implementation for the ExaLicense licensing server",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest",
+        "doc": "jsdoc -d ./doc index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/exanion/exalicense-client-js.git"
+    },
+    "author": "Exanion UG",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/exanion/exalicense-client-js/issues"
+    },
+    "homepage": "https://github.com/exanion/exalicense-client-js#readme",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "jsdoc": "^3.6.4",
+        "jsonwebtoken": "^8.5.1"
+    }
 }
