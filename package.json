@@ -2,7 +2,7 @@
     "name": "exalicense-client",
     "version": "0.0.1-dev",
     "description": "JS client implementation for the ExaLicense licensing server",
-    "main": "src/index.js",
+    "main": "index.js",
     "scripts": {
         "test": "jest",
         "doc": "jsdoc -d ./doc index.js"
