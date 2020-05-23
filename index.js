@@ -1,5 +1,4 @@
 const url = require("url");
-const jwt = require("jsonwebtoken");
 const axios = require("axios");
 
 /**
@@ -155,6 +154,8 @@ class ExaLicense {
 
     /**
      * Validate the currently stored lease without contacting the server using it's signature
+     * Caution: This requires the dependency "jsonwebtoken" to be present in your project.
+     * When using this function, you must install it yourself, e.g. "npm i jsonwebtoken"
      * @returns {Object} info Validation result
      * @returns {Boolean} info.isValid Indicates whether the lease is currently valid
      * @returns {String|null} info.errorCode Result for the lease being invalid
@@ -164,7 +165,7 @@ class ExaLicense {
     validateLeaseOffline() {
         let lease = {};
         try {
-            lease = jwt.verify(this.currentLease, this.pubKey, {
+            lease = require("jsonwebtoken").verify(this.currentLease, this.pubKey, {
                 algorithms: ["RS256"],
             });
         } catch (err) {
