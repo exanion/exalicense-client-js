@@ -1,6 +1,6 @@
 {
     "name": "exalicense-client",
-    "version": "0.0.1-dev",
+    "version": "0.1.5",
     "description": "JS client implementation for the ExaLicense licensing server",
     "main": "index.js",
     "scripts": {
